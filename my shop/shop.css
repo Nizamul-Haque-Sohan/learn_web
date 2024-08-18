@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+header {
+  margin: 0px;
+  padding: 10px;
+  background-color: greenyellow;
+  text-align: center;
+}
+header h1 {
+  text-transform: uppercase;
+  color: olivedrab;
+}
+header p {
+  color: olivedrab;
+}
+
+.menu ul {
+  justify-content: center;
+  background-color: #566573;
+  text-align: center;
+  margin-top: 0px;
+  padding: 3px;
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 0px 90px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+a:hover {
+  background-color: greenyellow;
+  border-radius: 2px;
+}
+#products {
+  color: blueviolet;
+  display: flex;
+}
+
+.product {
+  padding: 10px;
+  margin: 20px;
+
+  box-sizing: border-box;
+  background-color: aqua;
+  transition: transform 0.7s;
+}
+.product:hover {
+  transform: scale(1.06);
+  background-color: wheat;
+}
+.he {
+  color: green;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: #566573;
+}
+#nproducts {
+  color: green;
+  display: flex;
+}
+.action_button {
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: chartreuse;
+  border-radius: 4px;
+  transition: background-color 0.4s;
+}
+.action_button:hover {
+  background-color: orange;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0px 20px;
+}
+.form_he {
+  margin: 0px 20px;
+  color: black;
+}
+label {
+  margin-top: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  margin-top: 0.2em;
+}
+
+#contact button {
+  margin-top: 1em;
+  padding: 0.7em;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}
