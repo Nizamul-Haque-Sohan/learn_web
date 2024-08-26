@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #005f73;
+  color: #fff;
+  padding: 15px 0px;
+}
+.header_content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin-left: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+#content {
+  background-image: url(pexels-kindelmedia-7651803.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f4f4f4;
+}
+.main_content {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: transform 0.6s;
+}
+.main_content:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
+}
+.touch-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #ee6c4d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  transition: transform 0.6s;
+}
+.touch-button:hover {
+  background-color: #d64b2a;
+  transform: scale(1.2);
+}
+#services {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+#services h2 {
+  color: aqua;
+  margin-bottom: 15px;
+}
+#services p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#services ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+#services li {
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#about {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: left;
+}
+#about h2 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+#contact h2 {
+  color: #dc3545;
+  margin-bottom: 15px;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
+/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #f4f4f4;
+}
+@media screen and (max-width: 768px) {
+  #services,
+  #about,
+  #contact {
+    text-align: center;
+  }
+  #services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
+  #services,
+  #about,
+  #contact {
+    text-align: center;
+  }
+  #services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
